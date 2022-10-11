@@ -63,7 +63,6 @@ class WeatherViewController: UIViewController, UICollectionViewDataSource, UICol
     }()
     
     let tempText: UILabel = {
-        
         let tv = UILabel()
         tv.translatesAutoresizingMaskIntoConstraints = false
         tv.text = "25"
@@ -74,7 +73,6 @@ class WeatherViewController: UIViewController, UICollectionViewDataSource, UICol
     }()
     
     let tempSubText: UILabel = {
-        
         let tv = UILabel()
         tv.translatesAutoresizingMaskIntoConstraints = false
         tv.text = "SUNNY"
