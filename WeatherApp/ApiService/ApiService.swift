@@ -21,7 +21,7 @@ class ApiService {
         callApi(urlString: urlString, completionHandler: completionHandler);
     }
     
-    func callApi(urlString: String, completionHandler: @escaping (ApiResponse) -> Void){
+    private func callApi(urlString: String, completionHandler: @escaping (ApiResponse) -> Void){
         
         let url = Constants.baseUrl + urlString
         guard let url = URL(string: url)
