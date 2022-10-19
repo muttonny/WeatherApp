@@ -13,6 +13,8 @@
 		E3624A5428F198C90020E9A1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3624A5328F198C80020E9A1 /* ApiService.swift */; };
 		E3624A5628F201920020E9A1 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3624A5528F201920020E9A1 /* ApiResponse.swift */; };
 		E3624A5A28F304A60020E9A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3624A5928F304A50020E9A1 /* Constants.swift */; };
+		E3A446A428FDEABA00CBEDD2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A446A328FDEABA00CBEDD2 /* FavoritesViewController.swift */; };
+		E3A446A628FDEAE400CBEDD2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A446A528FDEAE400CBEDD2 /* ProfileViewController.swift */; };
 		E3F1C96F28EC8002000FAC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1C96E28EC8002000FAC25 /* AppDelegate.swift */; };
 		E3F1C97128EC8002000FAC25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1C97028EC8002000FAC25 /* SceneDelegate.swift */; };
 		E3F1C97328EC8002000FAC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1C97228EC8002000FAC25 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		E3624A5328F198C80020E9A1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		E3624A5528F201920020E9A1 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		E3624A5928F304A50020E9A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3A446A328FDEABA00CBEDD2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		E3A446A528FDEAE400CBEDD2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E3F1C96B28EC8002000FAC25 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F1C96E28EC8002000FAC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F1C97028EC8002000FAC25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				E314158A28EDDECD00BAAB37 /* WeatherViewController.swift */,
+				E3A446A328FDEABA00CBEDD2 /* FavoritesViewController.swift */,
+				E3A446A528FDEAE400CBEDD2 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,8 +324,10 @@
 				E314158B28EDDECD00BAAB37 /* WeatherViewController.swift in Sources */,
 				E3F1C96F28EC8002000FAC25 /* AppDelegate.swift in Sources */,
 				E3624A5628F201920020E9A1 /* ApiResponse.swift in Sources */,
+				E3A446A628FDEAE400CBEDD2 /* ProfileViewController.swift in Sources */,
 				E3624A5428F198C90020E9A1 /* ApiService.swift in Sources */,
 				E3F1C97128EC8002000FAC25 /* SceneDelegate.swift in Sources */,
+				E3A446A428FDEABA00CBEDD2 /* FavoritesViewController.swift in Sources */,
 				E3624A5A28F304A60020E9A1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

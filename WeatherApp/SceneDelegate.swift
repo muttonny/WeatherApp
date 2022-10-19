@@ -23,10 +23,50 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         self.window = UIWindow(windowScene: windowScene)
         
-        window?.rootViewController = WeatherViewController()
+        let tabBarController: UITabBarController = {
+
+            let tb = UITabBarController()
+            tb.tabBar.backgroundColor = .white
+            
+            let homeController = WeatherViewController()
+            homeController.tabBarItem = homeItem
+            
+            let favoriteController = FavoritesViewController()
+            favoriteController.tabBarItem = favoriteItem
+            
+            let profileController = ProfileViewController()
+            profileController.tabBarItem = profileItem
+            
+            tb.viewControllers = [favoriteController, homeController, profileController]
+            tb.selectedViewController = homeController
+            return tb
+        }()
+                
+        window?.rootViewController = tabBarController
         self.window?.makeKeyAndVisible()
     }
+    
+    let homeItem: UITabBarItem = {
+        let item = UITabBarItem()
+        item.title = "Home"
+        item.image = UIImage(named: "house")
+        return item
+    }()
+    
+    let favoriteItem: UITabBarItem = {
+        let item = UITabBarItem()
+        item.title = "Favorite"
+        item.image = UIImage(named: "favorite2")
+        return item
+    }()
 
+    let profileItem: UITabBarItem = {
+        let item = UITabBarItem()
+        item.title = "Profile"
+        item.image = UIImage(named: "profile2")
+        return item
+    }()
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

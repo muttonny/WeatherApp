@@ -241,6 +241,7 @@ class WeatherViewController: UIViewController, UICollectionViewDataSource, UICol
         return cv
     }()
     
+    
     func setupForecastCollcetionView(){
 
         list.dataSource = self
